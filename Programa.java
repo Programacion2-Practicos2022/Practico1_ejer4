@@ -3,39 +3,24 @@ import java.util.Scanner;
 public class Programa {
 	
 	void iniciar(){
+		String or1, or2;
 		
-		int valor=generarAleatorio();
-		int num;
-		int resul;
-		
-		do{
-			num=pedirNumero();
-			resul=compararNumeros(num, valor);
-			System.out.println(resul);
-			
-		}while(resul!=0);
-		System.out.println("Felicitaciones acertaste!!");
+		or1=cargarString();
+		or2=cargarString();
+		menu(or1,or2);
 	}
 	
-	//devuelve un numero aleatorio entre 1 y 100
-	int generarAleatorio(){
+	//carga de teclado dos String
+	String cargarString(){
 		//completar aquí
+			 
 	}
 	
-	//pide un nro por pantalla
-	 int pedirNumero(){
-		 Scanner entrada=new Scanner(System.in);
-		 
-		////completar aquí
-		 
-	 }
-	
-	 //compara dos enteros a y b. Devuelve un String indicando si es menor, mayor o igual
-	 int compararNumeros(int a, int b){
-		 //completar aquí
-	 }
-	
-}
-
+	//despliega menu
+	void menu(String a, String b){
+			//completar aquí				
+					
+	}
 
 }
+	
