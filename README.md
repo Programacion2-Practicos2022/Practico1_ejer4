@@ -1,7 +1,10 @@
-# Parte2_ejer1
+# Parte2_ejer2
 •	Para todos los ejercicios deberá realizar una organización en métodos.
 •	Utilice sangría, comentarios y buenos nombres para las declaraciones.
 
-### Ejercicio 1 (Scanner): 
-Realizar un programa que utilice métodos para **cargar**  e **imprimir** información sobre una persona: Apellido (String), edad (int), altura (double) y cédula (long). 
-Investigue en la API de Java u otro sitio web acerca de los métodos de la clase Scanner.
+### Ejercicio 2 (Random): Juego “Adivinar el número”. 
+•	Generar un único número aleatorio entre el 1 y el 1000 (será fijo durante la ejecución).
+•	El usuario ingresará un valor, se imprime “Demasiado grande” si el número ingresado es más grande, y “Demasiado chico”, si el número ingresado es demasiado chico. 
+•	El usuario ingresa números hasta que coincida con el número aleatorio. 
+El programa finaliza con el mensaje “Felicitaciones, acertó el número”.
+

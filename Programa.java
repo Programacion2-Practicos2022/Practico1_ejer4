@@ -2,23 +2,40 @@ import java.util.Scanner;
 
 public class Programa {
 	
-	 //Definición de las variables para cargar los datos
-	 
-	 Scanner entrada=new Scanner(System.in);
-	
-	 void iniciar(){
-				
-		cargar();
-		imprimir();
-	
+	void iniciar(){
+		
+		int valor=generarAleatorio();
+		int num;
+		int resul;
+		
+		do{
+			num=pedirNumero();
+			resul=compararNumeros(num, valor);
+			System.out.println(resul);
+			
+		}while(resul!=0);
+		System.out.println("Felicitaciones acertaste!!");
 	}
-//Escribir aquí el método cargar
-//Este método deberá cargar desde el teclado los datos necesarios
-
-
-//Escribir aquí el método imprimir
-//Este método deberá mostrar en pantalla  los datos cargados
-
+	
+	//devuelve un numero aleatorio entre 1 y 100
+	int generarAleatorio(){
+		//completar aquí
+	}
+	
+	//pide un nro por pantalla
+	 int pedirNumero(){
+		 Scanner entrada=new Scanner(System.in);
+		 
+		////completar aquí
+		 
+	 }
+	
+	 //compara dos enteros a y b. Devuelve un String indicando si es menor, mayor o igual
+	 int compararNumeros(int a, int b){
+		 //completar aquí
+	 }
+	
+}
 
 
 }
