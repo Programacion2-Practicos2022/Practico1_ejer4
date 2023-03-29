@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Programa {
 	
@@ -9,5 +9,5 @@ public class Programa {
 	//Escribe aquí el resto de métodos que necesites para resolver el problema
 	
 
-}
+}*/
 	
